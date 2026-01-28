@@ -1,0 +1,300 @@
+{
+  "version": "1.0",
+  "businessName": "Intergrated Plumbing Solutions",
+  "slug": "intergratedplumbing",
+  "category": "trades",
+  "designDirection": {
+    "aesthetic": "Industrial Authority",
+    "displayFont": "Bebas Neue",
+    "bodyFont": "Work Sans",
+    "palette": {
+      "primary": "#1a365d",
+      "accent": "#ed8936",
+      "surface": "#f7fafc",
+      "text": "#2d3748",
+      "textMuted": "#718096"
+    },
+    "effects": [
+      "geometric shapes",
+      "bold shadows",
+      "grain texture",
+      "decorative lines"
+    ]
+  },
+  "designVariations": [
+    {
+      "id": "variation-1",
+      "name": "Industrial Authority",
+      "rationale": "This design reflects Integrated Plumbing Solutions' comprehensive expertise across plumbing, drainage, and gas fitting with an industrial-strength aesthetic. The bold typography and navy-orange palette convey the reliability Gold Coast customers expect from a business experienced in all aspects of trade work.",
+      "palette": {
+        "primary": "#1a365d",
+        "accent": "#ed8936",
+        "surface": "#f7fafc",
+        "text": "#2d3748",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Bebas Neue",
+        "body": "Work Sans"
+      },
+      "layout": {
+        "hero": "Full-width background with overlay, bold centered headlines and call-to-action",
+        "sections": "Alternating left-right content blocks with service icons and descriptions",
+        "cards": "Clean bordered cards with subtle shadows and orange accent borders"
+      },
+      "effects": [
+        "geometric shapes",
+        "bold shadows",
+        "grain texture",
+        "decorative lines"
+      ],
+      "mood": [
+        "authoritative",
+        "industrial",
+        "trustworthy",
+        "professional"
+      ],
+      "recommended": true,
+      "recommendationReason": "Best balances the comprehensive nature of their services with the professional trust needed for both residential and commercial clients, while the industrial aesthetic perfectly matches their all-aspects expertise tagline."
+    },
+    {
+      "id": "variation-2",
+      "name": "Coastal Precision",
+      "rationale": "Designed specifically for Integrated Plumbing Solutions' Gold Coast location, this variation uses coastal-inspired blues with professional gray tones. The clean, precise layout mirrors their systematic approach to everything from CCTV drain inspections to complex commercial installations.",
+      "palette": {
+        "primary": "#2c5aa0",
+        "accent": "#38b2ac",
+        "surface": "#edf2f7",
+        "text": "#1a202c",
+        "textMuted": "#4a5568"
+      },
+      "fonts": {
+        "display": "Oswald",
+        "body": "Source Sans Pro"
+      },
+      "layout": {
+        "hero": "Split layout with service imagery on left, key messaging and contact form on right",
+        "sections": "Grid-based service showcase with hover effects and expandable details",
+        "cards": "Minimal flat cards with teal accent lines and subtle hover animations"
+      },
+      "effects": [
+        "subtle gradients",
+        "micro-animations",
+        "offset elements",
+        "parallax hints"
+      ],
+      "mood": [
+        "precise",
+        "coastal",
+        "modern",
+        "reliable"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-3",
+      "name": "Emergency Ready",
+      "rationale": "This high-contrast design emphasizes Integrated Plumbing Solutions' 24/7 emergency services with bold yellow accents against deep charcoal. Perfect for a business that handles everything from urgent gas leaks to toilet overflows across the Gold Coast region.",
+      "palette": {
+        "primary": "#2d3748",
+        "accent": "#f6e05e",
+        "surface": "#ffffff",
+        "text": "#1a202c",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Archivo Black",
+        "body": "DM Sans"
+      },
+      "layout": {
+        "hero": "Centered overlay design with emergency contact prominently featured",
+        "sections": "Card-focused layout with emergency services highlighted in yellow accent blocks",
+        "cards": "High-contrast shadowed cards with yellow border highlights for priority services"
+      },
+      "effects": [
+        "high contrast",
+        "bold shadows",
+        "geometric shapes",
+        "texture overlays"
+      ],
+      "mood": [
+        "urgent",
+        "reliable",
+        "bold",
+        "responsive"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-4",
+      "name": "Trade Craftsmanship",
+      "rationale": "This design celebrates Integrated Plumbing Solutions' comprehensive trade expertise with warm, earthy tones and organic elements. The forest green and warm yellow palette reflects their environmental services like greywater systems and rainwater harvesting while maintaining professional credibility.",
+      "palette": {
+        "primary": "#276749",
+        "accent": "#d69e2e",
+        "surface": "#f9f7f4",
+        "text": "#2d3748",
+        "textMuted": "#4a5568"
+      },
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Inter"
+      },
+      "layout": {
+        "hero": "Organic flowing background with integrated service badges and testimonials",
+        "sections": "Flowing organic sections with service categories grouped by specialty areas",
+        "cards": "Rounded cards with subtle organic shadows and earth-tone accent elements"
+      },
+      "effects": [
+        "organic blobs",
+        "subtle gradients",
+        "texture overlays",
+        "decorative lines",
+        "offset elements"
+      ],
+      "mood": [
+        "crafted",
+        "environmental",
+        "comprehensive",
+        "trusted"
+      ],
+      "recommended": false
+    }
+  ],
+  "selectedVariation": "variation-1",
+  "stories": [
+    {
+      "id": 1,
+      "title": "Project setup: Next.js + Tailwind, Cloudflare config",
+      "description": "Initialize a Next.js project with Tailwind CSS, configured for Cloudflare Pages deployment",
+      "acceptanceCriteria": [
+        "Next.js 14+ project initialized with TypeScript and App Router",
+        "Tailwind CSS configured and working",
+        "npm run build succeeds without errors",
+        "next.config.js configured for static export (output: 'export')"
+      ],
+      "passes": false
+    },
+    {
+      "id": 2,
+      "title": "Homepage: hero with images, services grid, trust signals, CTA",
+      "description": "Build the homepage using downloaded images from assets/images/ for hero, services overview, trust signals, and call-to-action",
+      "acceptanceCriteria": [
+        "Hero section with business name, tagline, and hero image from assets/images/",
+        "Services grid showing main offerings with relevant images",
+        "Trust signals section (reviews, certifications, experience)",
+        "Clear call-to-action buttons",
+        "Uses images from assets/images/ folder (NOT placeholder images)"
+      ],
+      "passes": false
+    },
+    {
+      "id": 3,
+      "title": "Services page with service images",
+      "description": "Create a dedicated services page using downloaded images for each service offering",
+      "acceptanceCriteria": [
+        "All services from content/services.json displayed",
+        "Each service has name, description, and image from assets/images/",
+        "Consistent styling with homepage",
+        "Uses next/image for optimized image loading"
+      ],
+      "passes": false
+    },
+    {
+      "id": 4,
+      "title": "About page with team/business images",
+      "description": "Build the about page with business story and images from assets/images/",
+      "acceptanceCriteria": [
+        "Business story section from content/about.json",
+        "Uses relevant images from assets/images/ (team photos, work photos, etc.)",
+        "Company values or mission statement",
+        "NO placeholder images - use actual downloaded assets"
+      ],
+      "passes": false
+    },
+    {
+      "id": 5,
+      "title": "Contact page: form, map, details",
+      "description": "Create contact page with working form, embedded map, and contact details",
+      "acceptanceCriteria": [
+        "Contact form with name, email, phone, message fields",
+        "Form submits to Formspree or similar service",
+        "Google Maps embed with business location",
+        "Phone, email, address, hours displayed from content/metadata.json"
+      ],
+      "passes": false
+    },
+    {
+      "id": 6,
+      "title": "Design system: Apply vertical aesthetic",
+      "description": "Implement the design system specific to the business vertical with distinctive typography, colors, and styling",
+      "acceptanceCriteria": [
+        "Display font and body font from design direction applied via next/font",
+        "Color palette implemented as CSS variables in globals.css",
+        "Distinctive aesthetic - NOT generic (no Inter, Roboto)",
+        "Visual style matches the business vertical"
+      ],
+      "passes": false
+    },
+    {
+      "id": 7,
+      "title": "Motion & polish",
+      "description": "Add animations and polish including page load reveals, hover states, and smooth scrolling",
+      "acceptanceCriteria": [
+        "Staggered page load animations using Framer Motion or CSS",
+        "Hover effects on interactive elements",
+        "Smooth scroll behavior",
+        "Respects prefers-reduced-motion"
+      ],
+      "passes": false
+    },
+    {
+      "id": 8,
+      "title": "AEO: LocalBusiness schema, meta tags, FAQ",
+      "description": "Implement Answer Engine Optimization with structured data, meta tags, and FAQ section",
+      "acceptanceCriteria": [
+        "LocalBusiness JSON-LD schema with all business details",
+        "Meta title and description optimized for local search",
+        "FAQ section with 3-5 common questions",
+        "Schema validates at schema.org validator"
+      ],
+      "passes": false
+    },
+    {
+      "id": 9,
+      "title": "Mobile responsive",
+      "description": "Ensure the site is fully responsive on mobile devices",
+      "acceptanceCriteria": [
+        "No horizontal scroll at 375px width",
+        "Touch-friendly button sizes (min 44px)",
+        "Readable text without zooming",
+        "Mobile navigation works correctly"
+      ],
+      "passes": false
+    },
+    {
+      "id": 10,
+      "title": "Image optimization with next/image",
+      "description": "Optimize all images using Next.js Image component for performance",
+      "acceptanceCriteria": [
+        "All images use next/image component",
+        "Images from assets/images/ are properly sized and optimized",
+        "Lazy loading enabled for below-fold images",
+        "Lighthouse Performance score > 90"
+      ],
+      "passes": false
+    },
+    {
+      "id": 11,
+      "title": "Deploy to Cloudflare Pages",
+      "description": "Deploy the completed Next.js static site to Cloudflare Pages",
+      "acceptanceCriteria": [
+        "npm run build creates static export in /out folder",
+        "Site deployed successfully to Cloudflare Pages",
+        "Preview URL accessible and HTTPS working",
+        "Loads in under 3 seconds"
+      ],
+      "passes": false
+    }
+  ]
+}
